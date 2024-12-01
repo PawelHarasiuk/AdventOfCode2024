@@ -21,7 +21,9 @@ def calculate_distances(input_list1, input_list2):
 
     return total
 
+def print_solution():
+    lines = read_file()
+    input_list1, input_list2 = split_to_lists(lines)
+    print(calculate_distances(input_list1, input_list2))
 
-lines = read_file()
-input_list1, input_list2 = split_to_lists(lines)
-print(calculate_distances(input_list1, input_list2))
+print_solution()
