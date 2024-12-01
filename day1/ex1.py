@@ -1,5 +1,5 @@
 def read_file():
-    with open("ex1_input.txt", 'r') as f:
+    with open("input.txt", 'r') as f:
         lines = f.readlines()
 
     return lines
